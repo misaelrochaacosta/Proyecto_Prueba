@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <EditText
-        android:id="@+id/editTextNumber"
+        android:id="@+id/txt_num1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -20,7 +20,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextNumber2"
+        android:id="@+id/txt_Num2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -30,7 +30,7 @@
         android:inputType="number"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNumber" />
+        app:layout_constraintTop_toBottomOf="@+id/txt_num1" />
 
     <RadioGroup
         android:id="@+id/radioGroup"
@@ -40,17 +40,17 @@
         android:layout_marginLeft="32dp"
         android:layout_marginTop="54dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNumber2">
+        app:layout_constraintTop_toBottomOf="@+id/txt_Num2">
 
         <CheckBox
-            android:id="@+id/checkBox3"
+            android:id="@+id/cb_Sumar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="CheckBox"
             android:textSize="24sp" />
 
         <CheckBox
-            android:id="@+id/checkBox4"
+            android:id="@+id/cb_Restar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="CheckBox"
@@ -70,7 +70,7 @@
         app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/tv_Resultado"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"

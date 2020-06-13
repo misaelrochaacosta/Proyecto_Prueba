@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">CalcularCheckbox</string>
+    <string name="app_name">Calcular Con Checkbox</string>
+    <string name="app_txt_Numero1">Ingrese el Primer Numero</string>
+    <string name="app_txt_Numero2">Ingrese el segundo Numero</string>
+    <string name="app_cb_Suma">Sumar</string>
+    <string name="app_cb_Restar">Restar</string>
+    <string name="app_btn_Calcular">Calcular</string>
+    <string name="app_tv_Resultado">Resultado</string>
 </resources>
